@@ -1,0 +1,46 @@
+#pirmais pubktu bloks
+
+ddd = ggg
+fff = hhh
+
+
+print(fff)
+
+#otrais punktu bloks
+
+fff = 22554
+
+ddd = 46752
+
+#trešais punktu bloks
+
+hhh = fff + ddd
+
+print(ddd)
+
+#četurtais punktu bloks
+
+print(f"ja {fff} saskaitit ar {ddd} tas bus {hhh}")
+
+
+#piektais punktu bloks
+
+my_list = ['teikums',1, 2]
+print(my_list)
+
+#sestais punktu bloks
+
+print("Saraksta my_lists elementu skaits: ", len(my_list))
+
+#septitais punktu bloks
+
+print(my_list + ["sveiki"])
+my_list = my_list + ["zakis"]
+print(my_list)
+
+#septitais punktu bloks
+
+my_list[0] = 'čau'
+print(my_list)
+
+#astotais punktu bloks
