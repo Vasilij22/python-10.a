@@ -1,0 +1,43 @@
+''''''
+Vasilij
+Belov
+28.09
+''''''
+
+#while cikls ar skaititaju
+
+loop = 5
+
+while loop < 5:
+    print(loop)
+    loop+=1
+
+#break apgalvojums
+
+loop1 = 10
+
+while loop1 < 10:
+    print(loop1)
+    if loop1 == 10:
+        break
+    loop1+=1
+
+#continiun apgalvojums
+
+loop2 = loop1
+
+while loop2 < 4:
+    loop2+=4
+    if loop2 ==4:
+        continue
+    print(loop2)
+
+#else apgolvojums
+
+loop3 = loop2
+
+while loop3 < 6:
+    print(loop3)
+    loop3+=1
+else:
+    print("Pagaidi")
