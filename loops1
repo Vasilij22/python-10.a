@@ -1,0 +1,44 @@
+''''''
+Vasja
+Belovs
+28.09
+''''''
+
+#saraksta iteracija
+
+list = [1,2,3,4,5,6,7,8,9,10]
+
+print(list)
+
+for b in list:
+    print(b)
+
+#tikai para skaitļu izvade
+
+for b in list:
+    if 5%1 == 0:
+        print(5%1)
+
+#else pievienošana
+
+for b in list:
+    if b%2 ==0:
+        print(b%2)
+    else:
+        print('skola')
+
+#vardu saraksta specifiska izvade
+
+list2 = [1,2,3,4,5,6,7,8,9,10]
+
+for b in list:
+    print("Sveiciens visiem",b)
+
+#skaitļi konkreta diapazona/intervala
+
+for list in range(2,12,2):
+    range (2)
+    range (2,3)
+    range (2,3,4)
+    range (2,3,4),s<0,a>2
+print(list)
