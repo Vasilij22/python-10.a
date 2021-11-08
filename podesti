@@ -1,0 +1,46 @@
+#Podesti
+
+
+def materialuuzskate(tips,izmers1,izmers2,skaits):
+
+
+    #tips - 'finieris',
+    #izmersi -izmers1,izmers2 - garums,platums,skaits
+    #listes - izmers1(garums),skiats
+    #lenkis - skaits
+
+    pass
+
+
+def materialuapreķins(platums, garums, augstums, skaits):
+    #mainigie raksturo 
+    
+    #finieris
+
+    #podesta augša un apakša
+    materialuuzskate("finieris", platums, garums, 2*skaits)
+
+    #podesta priekšeja un aizmugure malas
+    materialuuzskate("finieris", garums, augstums, 2*skaits)
+
+    #podesta sanu mals
+    materialuuzskate("finieris", platums, augstums, 2*skaits)
+        
+    
+
+    #listes
+
+    #audšejais finiera plaksne 4listes
+    #apak;seja finiera plaksne 4listes
+    #saņu malas - 4listes
+
+    materialuuzskate("liste", garums, 0, 4*skaits)
+
+    materialuuzskate("liste", platums, 0, 4*skaits)
+
+    materialuuzskate("liste", augstums, 0, 4*skaits)
+
+
+    #leņķi
+
+    materialuuzskate("leņkis", 0, 0, 8*skaits)
