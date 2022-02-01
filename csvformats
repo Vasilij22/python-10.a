@@ -1,0 +1,15 @@
+import csv
+from email import header
+
+file = open("csv_meg.csv")
+
+print(type(file))
+
+lasit_csv = csv.reader(file)
+
+print(lasit_csv)
+
+#kolonu nosaukumi
+
+header = next(lasit_csv)
+print(header)
