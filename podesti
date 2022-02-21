@@ -1,0 +1,73 @@
+#Podesti
+
+
+def materialuuzskate(tips,izmers1,izmers2,skaits):
+
+
+    #tips - 'finieris',
+    #izmersi -izmers1,izmers2 - garums,platums,skaits
+    #listes - izmers1(garums),skiats
+    #lenkis - skaits
+
+    pass
+
+
+def materialuapreķins(platums, garums, augstums, skaits):
+    #mainigie raksturo 
+    
+    #finieris
+
+    #podesta augša un apakša
+    materialuuzskate("finieris", platums, garums, 2*skaits)
+
+    #podesta priekšeja un aizmugure malas
+    materialuuzskate("finieris", garums, augstums, 2*skaits)
+
+    #podesta sanu mals
+    materialuuzskate("finieris", platums, augstums, 2*skaits)
+        
+    
+
+    #listes
+
+    #audšejais finiera plaksne 4listes
+    #apak;seja finiera plaksne 4listes
+    #saņu malas - 4listes
+
+    materialuuzskate("liste", garums, 0, 4*skaits)
+
+    materialuuzskate("liste", platums, 0, 4*skaits)
+
+    materialuuzskate("liste", augstums, 0, 4*skaits)
+
+
+    #leņķi
+
+    materialuuzskate("leņkis", 0, 0, 8*skaits)
+    
+    
+    
+    file = open("meginajums.txt","r",encoding="utf-8")
+
+file.write("Skola viss labaka")
+
+saturs=["Sodien laba diena"]
+
+file.writelines(saturs)
+
+file.close()
+
+with open("meginajums.txt","r",encoding="utf-8") as file:
+
+    print(file.read())
+    print(file.readline())
+
+    file.seek(0) #Parvietojamies uz faila sakumu
+
+    print(file.readline())
+
+with open("meginajums.txt","a",encoding="utf-8") as file:
+    file.write("Skola ir slikti")
+
+with open("meginajums.txt","w",encoding="utf-8") as file:
+    file.write("Labdien")

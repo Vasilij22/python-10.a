@@ -1,0 +1,16 @@
+def gridas_izmaksas(cena,lineleja_platums,telpas_garums,telpas_platums):
+
+    if telpas_platums%lineleja_platums != 0:
+        trukst = telpas_platums%lineleja_platums
+        if trukst<lineleja_platums:
+           papildus = round(lineleja_platums * telpas_garums)
+           izmaksas = (round(telpas_garums*telpas_platums) + papildus)*cena
+        elif trukst > lineleja_platums:
+            lin_gab = round(trukst/lineleja_platums)
+            papildus = lin_gab * lineleja_platums * telpas_garums
+            izmaksas = (round(telpas_garums*telpas_platums) + papildus)*cena
+    else:
+        izmaksas = round(telpas_platums*telpas_garums)*cena
+
+    return izmaksas
+

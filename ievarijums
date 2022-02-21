@@ -1,0 +1,9 @@
+cukurskg = float(input("cik kilogarmu vajag cukuru"))
+ābolikg = float(input("cik kilogramu vajag abolu"))
+cukuracena = float(input("kada ir cukuru cena"))
+ābolucena = float(input("kada ir ābolu cena"))
+
+z = cukurskg + cukuracena
+x = ābolikg + ābolucena
+
+print(str(z+x))

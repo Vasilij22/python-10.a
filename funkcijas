@@ -1,0 +1,40 @@
+'''''
+Vaasilij
+Belov
+04.10.2021.
+'''''
+
+#funkcijas uzbuve
+
+def mana_funkcija():
+    print('pirma funkcija')
+
+#finkcijas definešana
+
+def mana_funkcija ():
+    print('pirma funkcija')
+
+#funkcoja ar vienu parametru
+
+def mana_funkcija1 (games):
+    print('otra funcija,games')
+
+mana_funkcija ('interesantaka')
+
+#funkcija ar divu parametru 
+
+def mana_funkcija2(school,games):
+    print('treša funkcija,school,games')
+
+mana_funkcija('sport,study')
+
+#funkcija ar diviem parametriem, izmantojot return
+
+def mana_funkcija3(friends,sport):
+    return friends + sport
+
+friends = 5
+sport = 2
+print('ceturta funkcija'('friend,sport'))
+
+mana_funkcija('friendly,sport')

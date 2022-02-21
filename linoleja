@@ -1,0 +1,8 @@
+def gridas_izmaksas(cena,lineleja_platums,telpas_garums,telpas_platums):
+    ''''''
+    z = telpas_garums * telpas_platums * lineleja_platums
+    izmaksas = z * cena
+    return izmaksas
+    ''''''
+
+print(gridas_izmaksas(5,6,1,8))

@@ -1,0 +1,10 @@
+def atgriezt_skaitli(z,x):
+    if z%2 == 0 and x%2 == 0:
+
+        return min(z,x)
+
+    else:
+        return max(z,x)
+
+print(atgriezt_skaitli(2,4))
+print(atgriezt_skaitli(4,5))
